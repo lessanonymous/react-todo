@@ -5,3 +5,8 @@
   justify-items: center;
   border-bottom: lightgrey 1px solid;
 }
+
+.done {
+  text-decoration: line-through;
+  color: lightgrey;
+}

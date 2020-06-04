@@ -9,7 +9,9 @@ const TodoItem = (props) => {
         checked={props.todo.done}
         onChange={() => props.handleChange(props.todo.id)}
       ></input>
-      <p>{props.todo.description}</p>
+      <p className={props.todo.done ? "done" : undefined}>
+        {props.todo.description}
+      </p>
     </li>
   );
 };
