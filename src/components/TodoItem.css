@@ -1,0 +1,7 @@
+.todo-item {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+  justify-items: center;
+  border-bottom: lightgrey 1px solid;
+}

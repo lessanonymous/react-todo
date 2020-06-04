@@ -1,0 +1,11 @@
+footer {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+  margin: 0;
+}
